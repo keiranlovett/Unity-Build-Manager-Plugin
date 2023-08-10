@@ -1,6 +1,9 @@
 Build Management Script
 ============
 
+> Archiving this as I've learnt a lot since and there are much better Build Management Scripts out there now. Might replace this with a newer version at a laster date.
+
+
 Basic Unity script to help automate and log the game build process.
 
 When the user wants to build the project they click the platform type (in my case OSX), and the script automatically builds it in a folder appropriately named "Build", appending the version number of the game. Once thats done it appends the information to a log, to keep track of failed builds and embedded scenes in the builds. Simple, and effective. While its a rough and hacked together project done in a few hours, its easy enough to understand and extend.
